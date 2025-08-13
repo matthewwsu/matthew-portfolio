@@ -61,7 +61,7 @@ const I = {
     x: () => <span aria-hidden>𝕏</span>,
     ig: () => (
         <img
-            src="/instagram.svg"
+            src={`${import.meta.env.BASE_URL}instagram.svg`}
             alt="Instagram"
             style={{
                 filter: 'invert(1) grayscale(0) brightness(2) contrast(2)',
