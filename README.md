@@ -1,12 +1,39 @@
-# React + Vite
+# Matthew Su — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](public/portfolio-screenshot.png)
 
-Currently, two official plugins are available:
+## 📄 About
+This is my personal portfolio website built with **Vite + React** and styled with **Tailwind CSS**.  
+It showcases my background, skills, work experience, selected projects, and writing samples.  
+The site is responsive, minimalist, and optimized for fast loading.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Site:** [https://matthewwsu.github.io/matthew-portfolio/](https://matthewwsu.github.io/matthew-portfolio/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** [React](https://react.dev/) (with Vite)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** Custom SVG assets
+- **Hosting:** [GitHub Pages](https://pages.github.com/)
+- **Deployment:** [`gh-pages`](https://www.npmjs.com/package/gh-pages) npm package
+
+---
+
+## 📂 Features
+- **Hero Section** — name, tagline, quick highlights, and CTA buttons
+- **About Me** — professional summary and core focus areas
+- **Experience** — past roles with bullet-point achievements
+- **Selected Projects** — clickable links to repos and demos
+- **Writing** — PDFs of valuation write-ups and research papers
+- **Contact** — email and LinkedIn buttons
+- **Mobile-Friendly** — works across all screen sizes
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+Clone the repo:
+```bash
+git clone https://github.com/matthewwsu/matthew-portfolio.git
+cd matthew-portfolio
