@@ -1,16 +1,6 @@
 import React, { useEffect } from "react";
 
-/**
- * FIX NOTES (why this rewrite):
- * - Addressed runtime error: `ReferenceError: skills is not defined` by defining a `skills` array
- *   before it is used in the About section.
- * - Kept the prior hardening changes: removed external icon & shadcn imports to avoid unresolved
- *   dependencies in fresh/sandboxed builds and replaced them with local UI primitives.
- * - Added MORE self-tests so missing config is surfaced in the console early (now tests `skills`).
- * - No visual regressions; same sections and layout.
- */
 
-// ---------- Minimal UI primitives (no external deps) ----------
 const cls = (...xs) => xs.filter(Boolean).join(" ");
 
 const Card = ({ className = "", children }) => (
